@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none">
+  <!-- Central knot -->
+  <ellipse cx="24" cy="22" rx="4.5" ry="4" fill="#f8e5e7" stroke="#b46874" stroke-width="1.2"/>
+  <!-- Left loop -->
+  <path d="M20 21C16 14 7 14 6 20C5 25 14 26 20 23" fill="#fceef0" stroke="#b46874" stroke-width="1.2" stroke-linejoin="round"/>
+  <path d="M18 20.5C14.5 17 9.5 17.5 9 20.5C8.5 22.5 13 23.5 18 22" fill="#e9a2ab" opacity="0.6"/>
+  <!-- Right loop -->
+  <path d="M28 21C32 14 41 14 42 20C43 25 34 26 28 23" fill="#fceef0" stroke="#b46874" stroke-width="1.2" stroke-linejoin="round"/>
+  <path d="M30 20.5C33.5 17 38.5 17.5 39 20.5C39.5 22.5 35 23.5 30 22" fill="#e9a2ab" opacity="0.6"/>
+  <!-- Left ribbon tail -->
+  <path d="M22 25C20 31 16 38 12 41C14 36 17 32 23 26" fill="#f9dfe2" stroke="#b46874" stroke-width="1.1"/>
+  <!-- Right ribbon tail -->
+  <path d="M26 25C28 31 32 38 36 41C34 36 31 32 25 26" fill="#f9dfe2" stroke="#b46874" stroke-width="1.1"/>
+</svg>

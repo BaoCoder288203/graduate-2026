@@ -1,0 +1,53 @@
+export const site = {
+  studentName: 'Nguyễn Trọng Bảo',
+  studentNameSash: 'NGUYỄN TRỌNG BẢO',
+  schoolVi: 'Đại học Công nghiệp TP. Hồ Chí Minh',
+  schoolShort: 'IUH',
+  schoolEn: 'Industrial University',
+  city: 'HO CHI MINH CITY',
+  event: {
+    time: '9:00',
+    weekday: 'THỨ BẢY',
+    month: 'THÁNG 7',
+    day: '27',
+    year: 'NĂM 2026',
+    venue: 'TRUNG TÂM\nHỘI NGHỊ IUH',
+    address: '12 Nguyễn Văn Bảo, P. Hạnh Thông, TP.HCM',
+    maps: 'https://maps.google.com/?q=Trường+Đại+học+Công+nghiệp+TP.HCM+12+Nguyễn+Văn+Bảo',
+    startAt: '2026-07-27T09:00:00',
+  },
+  photos: {
+    cover: { src: '/photos/cover.jpg', position: 'center 78%' },
+    sash: '/photos/sash.png',
+    inviteBg: '/photos/invite-bg.png',
+    invite: { src: '/photos/invite.jpg', position: 'center 42%' },
+    film: [
+      { src: '/photos/film-01.jpg', position: 'center 18%' },
+      { src: '/photos/film-02.jpg', position: 'center 28%' },
+      { src: '/photos/film-03.jpg', position: 'center 42%' },
+      { src: '/photos/film-04.jpg', position: '78% 42%' },
+      { src: '/photos/film-05.jpg', position: '78% 62%' },
+    ],
+    galleryMain: { src: '/photos/gallery-main.jpg', position: 'center 62%' },
+    polaroids: [
+      { src: '/photos/pola-1.jpg', position: '22% 42%' },
+      { src: '/photos/pola-2.jpg', position: 'center 78%' },
+      { src: '/photos/pola-3.jpg', position: 'center 58%' },
+    ],
+    graduate: { src: '/photos/graduate.png', position: 'center bottom' },
+  },
+  envelope: {
+    cta: 'Mở thiệp mời',
+    flap: 'Lời mời',
+    badge: 'Lễ Tốt Nghiệp',
+    inviteLine: 'Thân mời bạn đến chung vui',
+  },
+  letter: {
+    title: 'Đi qua hoài niệm - Gửi lại chính mình',
+    paragraphs: [
+      'Đại học không chỉ là nơi mình học kiến thức, mà còn là nơi mình học cách trưởng thành. Với mình, Trường Đại học Công nghiệp TP.HCM (IUH) đã mở ra rất nhiều cơ hội để khám phá bản thân, gặp gỡ những con người tài năng và bước ra khỏi vùng an toàn. Nhưng cũng chính nơi đây đã có những lúc khiến mình nghi ngờ năng lực của chính mình.',
+      'Có những ngày nhìn xung quanh, ai cũng giỏi, ai cũng cố gắng, mình từng nghĩ bản thân đang chậm hơn người khác. Áp lực, những lần thất bại hay cảm giác chưa đủ tốt đã từng khiến mình mất đi sự tự tin. Nhưng rồi mình nhận ra, điều quý giá nhất mà quãng thời gian này mang lại không phải là những điểm số hay thành tích, mà là sự kiên cường để tiếp tục bước đi.',
+      'Nhìn lại, mọi khó khăn rồi cũng sẽ qua. Điều còn ở lại là những trải nghiệm, những người mình đã gặp và phiên bản trưởng thành hơn của chính mình.',
+    ],
+  },
+} as const
